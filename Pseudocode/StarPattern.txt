@@ -1,0 +1,40 @@
+
+# Star Pattern
+===============
+N=3
+
+*
+**
+***
+
+Observations:
+1) There are N rows
+2) In ith row there are i no of stars.
+
+Code:
+
+Read N
+i = 1
+while i<=N{
+	stars = 1
+	while stars<=i {
+		print "*"
+		stars = stars + 1
+	}
+	print "\n"
+	i = i + 1
+}
+exit
+
+
+
+
+
+
+
+
+
+
+
+
+

@@ -1,0 +1,38 @@
+Star Pattern with Spaces
+N = 3
+  *
+ ***
+*****
+
+Observations:
+1) N rows
+2) Each row has (N-i) spaces, (2i - 1) stars, new line
+
+___________________
+
+Read N
+i = 1
+
+while i <= N{
+    
+    spaces = 1
+    while spaces <= (N - i) {
+      print " "
+      spaces = spaces + 1;
+    }
+
+    //Stars
+    stars = 1
+    while stars <= (2*i - 1) {
+      print "*"
+      stars = stars + 1
+    }
+
+    //New Line
+    print "\n"
+    i = i + 1
+}
+
+exit 
+
+

@@ -1,0 +1,21 @@
+Find GCD of two numbers A and B.
+=================================
+A = 8
+B = 20
+
+Gcd = 4
+
+Pseudocode:
+====================
+
+Read A,B
+i = 1
+while i<= min(A,B){
+	if A%i==0 and B%i==0 {
+		gcd = i
+	}
+	i = i + 1
+}
+
+print gcd
+exit

@@ -1,0 +1,23 @@
+
+# Take input N, followed by N inputs
+find the Sum of N Numbers that have been input.
+------------------------------------
+
+N = 4
+10, 20, 40, 30
+sum = 100
+
+Pseudocode:
+--------------------------------
+Read N
+i = 1
+sum = 0
+
+while i<=N{
+	Read Val
+	sum = sum + val
+	i = i + 1
+}
+
+print sum
+exit

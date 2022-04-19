@@ -1,0 +1,20 @@
+
+# Pseudcode - II (Largest 
+of 3 Numbers)
+====================================
+
+Read A, B, C
+
+if A>=B and A>=C{
+	print "A is largest"
+	exit
+}
+if B>=A and B>=C{
+	print "B is largest"
+	exit
+}
+else{
+	print "C is largest"
+	exit
+}
+

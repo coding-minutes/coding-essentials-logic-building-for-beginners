@@ -1,0 +1,15 @@
+# Check if N is Prime of Not
+============================
+
+Read N
+i = 2
+while i < N{
+	if N % i == 0{
+		print NOT PRIME
+		exit
+	}
+	i = i + 1
+}
+
+print PRIME
+exit

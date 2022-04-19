@@ -1,0 +1,10 @@
+# Pseudcode - I
+==================
+
+read P,R,T
+SI = (P*R*T) / 100
+print SI
+exit
+
+
+
